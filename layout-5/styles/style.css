@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+}
+
+.grey {
+  background-color: lightgrey;
+  border: 3px solid grey;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.logo {
+  height: 150px;
+  width: 200px;
+  float: left;
+}
+
+.nav-item {
+  height: 30px;
+  width: 60px;
+  float: left;
+}
+
+nav {
+  float: right;
+  padding: 50px 0;
+}
+
+.clearfix::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+aside {
+  height: 800px;
+  width: 19%;
+  float: left;
+}
+
+article {
+  width: 78%;
+  float: right;
+}
+
+.title {
+  height: 150px;
+}
+
+section aside {
+  height: 450px;
+}
+
+.content {
+  width: 76%;
+  float: left;
+  height: 450px;
+}
+
+.col {
+  width: 22.5%;
+  height: 160px;
+  float: left;
+}
+
+footer {
+  height: 150px;
+}
